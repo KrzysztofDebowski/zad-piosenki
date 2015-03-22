@@ -542,4 +542,11 @@ public function  SenowarszawieAction()
     {
         return $this->render('default/na-co-komu.html.twig');
     }
+    /**
+     * @Route("/eagle.html", name="eagle")
+     */
+    public function eagleAction()
+    {
+        return $this->render('default/eagle.html.twig');
+    }
 }
