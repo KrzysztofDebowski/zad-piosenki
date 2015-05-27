@@ -180,6 +180,13 @@ public function  alabasterAction()
         return $this->render('default/endless.html.twig');
     }
     
+    /**
+     * @Route("/eagle.html", name="eagle")
+     */
+    public function eagleAction()
+    {
+        return $this->render('default/eagle.html.twig');
+    }
     
      /**
      * @Route("/plona-lasy.html", name="plona-lasy")
